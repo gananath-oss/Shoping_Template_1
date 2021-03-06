@@ -176,14 +176,14 @@ a:hover {
 }
 
 .mainbg .women {
-	position: absolute;
-	top: 350px;
+	position: relative;
+	top: -100px;
 	left: 850px;
 }
 
 .mainbg .men {
-	position: absolute;
-	top: 350px;
+	position: relative;
+	top: 130px;
 	left: 250px;
 }
 
