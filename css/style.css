@@ -23,6 +23,8 @@ a:hover {
 .sub_head {
 	background-color: #6C1158;
 	padding: 10px;
+	width: 1200px;
+	margin: 0 auto;
 }
 
 .sub_head .left {
@@ -52,7 +54,14 @@ a:hover {
 }
 
 .main_nav {
-	margin: 30px auto;
+	margin: 0;
+	white-space: nowrap;
+	width: 1200px;
+}
+
+.main_nav div {
+	padding-top: 15px;
+	height:  55px;
 }
 
 .main_nav .dip-inline {
@@ -73,20 +82,16 @@ a:hover {
 	font-weight: bold;
 }
 
-.main_nav_text button {
-	margin: 0;
-	padding: 0;
-	background-color: #fff;
-	border: none;
-	color: #5F5357;
-	font-size: 10px;
-	text-transform: uppercase;
-	font-family: inherit;
-	font-weight: bold;
-	float: left;
+.main_nav_text .drop-possition {
+	position: fixed;
+	z-index: 2;
 }
 
-.main_nav_text a:hover, .main_nav_text button:hover {
+.main_nav_text .drop-possition ul {
+	opacity: .9;
+}
+
+.main_nav_text a:hover{
 	color: #029CCF;
 }
 
@@ -97,7 +102,10 @@ a:hover {
 .sub_page_bar {
 	background-color: #333;
 	margin: 0;
-	position: relative;
+	position: fixed;
+	z-index: 1;
+	max-width: 1200px;
+	width: 100%;
 }
 
 .sub_page_bar ul {
@@ -199,55 +207,6 @@ a:hover {
 .mainbg .women button:hover {
 	background-color: #EB004F;
 }
-
-li {
- display: block;
- transition-duration: 0.5s;
-}
-
-li:hover {
-  cursor: pointer;
-}
-
-ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-}
-
-ul li:hover > ul,
-.drp-block ul li ul:hover {
-  visibility: visible;
-  opacity: 0.7;
-  display: block;
-  margin-left: 46%;
-  position: relative;
-}
-
-ul li ul {
-  background-color: #FF6200;
-  opacity: .9;
-  border-radius: 4px;
-  display: block;
-  width: 150px;
-}
-
-ul li ul li {
-  clear: both;
-  margin: 0;
-  padding: 10px auto;
-  width: 80px;
-  border-bottom: 0.7px solid #555;
-}
-
-ul li ul li:last-child {
-	border-bottom: 0;
-}
-
 .grids {
 	position: absolute;
 }
