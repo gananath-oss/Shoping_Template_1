@@ -82,12 +82,9 @@ a:hover {
 	font-weight: bold;
 }
 
-.main_nav_text .drop-possition {
+.dropdown_menu_possision {
 	position: fixed;
-	z-index: 2;
-}
-
-.main_nav_text .drop-possition ul {
+	z-index: 1;
 	opacity: .9;
 }
 
@@ -102,8 +99,10 @@ a:hover {
 .sub_page_bar {
 	background-color: #333;
 	margin: 0;
-	position: fixed;
-	z-index: 1;
+	position: relative;
+	/*position: sticky;
+	top: 0;
+	z-index: 1;*/
 	max-width: 1200px;
 	width: 100%;
 }
@@ -208,7 +207,7 @@ a:hover {
 	background-color: #EB004F;
 }
 .grids {
-	position: absolute;
+	position: relative;
 }
 
 .grid_style {
