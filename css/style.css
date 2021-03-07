@@ -83,6 +83,10 @@ a:hover {
 }
 
 .dropdown_menu_possision {
+	position: static;
+}
+
+#dropdown_menu_possision:hover {
 	position: fixed;
 	z-index: 1;
 	opacity: .9;
@@ -99,9 +103,7 @@ a:hover {
 .sub_page_bar {
 	background-color: #333;
 	margin: 0;
-	position: relative;
 	/*position: sticky;
-	top: 0;
 	z-index: 1;*/
 	max-width: 1200px;
 	width: 100%;
