@@ -1,5 +1,5 @@
 body {
-	width: 1200px;
+	max-width: 1500px;
 	margin: 0 auto;
 }
 
@@ -23,15 +23,17 @@ a:hover {
 .sub_head {
 	background-color: #6C1158;
 	padding: 10px;
-	width: 1200px;
+	max-width: 1500px;
 	margin: 0 auto;
 }
 
 .sub_head .left {
+	padding-left: 15%;
 	float: left;
 }
 
 .sub_head .right {
+	padding-right: 15%;
 	float: right;
 }
 
@@ -56,7 +58,7 @@ a:hover {
 .main_nav {
 	margin: 0;
 	white-space: nowrap;
-	width: 1200px;
+	max-width: 1500px;
 }
 
 .main_nav div {
@@ -70,6 +72,8 @@ a:hover {
 }
 
 .main_nav_text {
+	width: 80%;
+	padding-left: 15%;
 	float: left;
 }
 
@@ -89,7 +93,7 @@ a:hover {
 #dropdown_menu_possision:hover {
 	position: fixed;
 	z-index: 1;
-	opacity: .9;
+	opacity: .7;
 }
 
 .main_nav_text a:hover{
@@ -97,6 +101,8 @@ a:hover {
 }
 
 .main_nav_icon {
+	width: 20%;
+	padding-right: 20%;
 	float: right;
 }
 
@@ -105,7 +111,7 @@ a:hover {
 	margin: 0;
 	/*position: sticky;
 	z-index: 1;*/
-	max-width: 1200px;
+	max-max-width: 1500px;
 	width: 100%;
 }
 
@@ -140,14 +146,21 @@ a:hover {
 	color: #777;
 }
 
+.mainbg {
+	max-width: 1500px;
+	background-color: #101012;
+}
+
 .mainbg img {
 	position: absolute;
+	left: 20%;
+	padding: 0;
 }
 
 .mainbg .men {
 	position: relative;
 	top: 400px;
-	left: 250px;
+	left: 15%;
 }
 
 .mainbg h1, .mainbg p {
@@ -179,7 +192,7 @@ a:hover {
 .mainbg .women {
 	position: relative;
 	top: -100px;
-	left: 850px;
+	left: 70%;
 }
 
 .mainbg .men {
@@ -248,6 +261,12 @@ a:hover {
 	background-color: transparent;
 	border-radius: 4px;
 	padding: 3px 10px;
+}
+
+.grids .grid_style:hover {
+	position: relative;
+	top: -4px;
+	left: -4px;
 }
 
 .grids .shopping_body button:hover {
