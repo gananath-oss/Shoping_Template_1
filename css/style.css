@@ -209,29 +209,15 @@ a:hover {
 	background-color: #EB004F;
 }
 .grids {
-	position: relative;
-}
-
-.grid_style {
+	padding-top: 60px;
 	display: grid;
-	grid-template-columns: repeat(6,1fr);
-	grid-template-rows: repeat(3,minmax(110px, auto));
-	grid-gap: 10px;
-	background-color: #000;
+	grid-template-columns: repeat(3,1fr);
+	grid-auto-rows: minmax(280px,auto);
+	grid-gap: 30px;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
-.grid1 {
-	grid-column-start: 2;
-	grid-column-end: 3;
+.grids div {
+	background-color: red;
 }
-
-.grid2 {
-	grid-column-start: 3;
-	grid-column-end: 4;
-}
-
-.grid3 {
-	grid-column-start: 4;
-	grid-column-end: 5;
-}
-
